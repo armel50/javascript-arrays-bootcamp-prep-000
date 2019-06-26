@@ -31,10 +31,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 function removeElementFromEndOfArray(array){
- return array.slice(-1);
+  var slice = array.slice(-1);
+ return slice;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
   array.pop();
   return array;
 }
-function
+function removeElementFromBeginningOfArray(array){
+  return 
+}
